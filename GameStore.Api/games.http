@@ -2,3 +2,32 @@ GET http://localhost:5244/games
 
 ###
 GET http://localhost:5244/games/1
+
+###
+POST http://localhost:5244/games/
+Content-Type: application/json
+
+{
+    "name": "Super Mario Bros DS",
+    "genre": "Platformer",
+    "price":  59.99,
+    "release": "2006-05-25"
+}
+
+###
+PUT http://localhost:5244/games/1
+Content-Type: application/json
+
+
+{
+    "name": "Street fighter III",
+    "genre": "Fighting",
+    "price": 19.99,
+    "releaseDate": "1992-07-15"
+}
+
+###
+DELETE http://localhost:5244/games/1
+
+
+
