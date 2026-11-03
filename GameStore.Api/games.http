@@ -8,7 +8,7 @@ POST http://localhost:5244/games/
 Content-Type: application/json
 
 {
-    "name": "Super Mario Bros DS",
+    "name": "",
     "genre": "Platformer",
     "price":  59.99,
     "release": "2006-05-25"
