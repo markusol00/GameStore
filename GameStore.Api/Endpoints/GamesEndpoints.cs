@@ -77,7 +77,6 @@ public static class GamesEndpoints
         group.MapPut("/{id}", async (int id, UpdateGameDto updatedGame, GameStoreContext dbContext) =>
         {
             var existingGame = await dbContext.Games.FindAsync(id);
-            games.FindIndex(game => game.Id == id);
 
             //Handling non-existing game by its index 
             if (existingGame is null)
