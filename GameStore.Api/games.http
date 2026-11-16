@@ -29,5 +29,8 @@ Content-Type: application/json
 ###
 DELETE http://localhost:5244/games/3
 
+###
+GET http://localhost:5244/genres
+
 
 
